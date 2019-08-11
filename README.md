@@ -1,0 +1,1 @@
+This repository binds together several example projects I have made at the codewars.com platform. For exact task describtions and more solutions please refer to www.codewars.com/users/kamon/completed_solutions . 
