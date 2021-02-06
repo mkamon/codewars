@@ -15,12 +15,7 @@ find_nb () {
 	do
 		((++CUBES_AMOUNT))
 		CURRENT_VOLUME=$(( $CURRENT_VOLUME + $CUBES_AMOUNT ** 3 )) 
-	
-	
-		echo "Volume = $CURRENT_VOLUME"
-		echo "Amount = $CUBES_AMOUNT"
 	done
-	echo $CURRENT_VOLUME
 
 	if [ $CURRENT_VOLUME -eq $TARGET_VOLUME ]
 	then
