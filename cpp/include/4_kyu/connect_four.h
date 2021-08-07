@@ -1,5 +1,6 @@
 #include <map>
 #include <vector>
+#include <string>
 
 namespace ConnecFour{
     enum winning_direction{
