@@ -12,3 +12,7 @@ add_test( TestHumanReadableDuration TestHumanReadableDuration )
 add_executable( TestSumByFactors testSumByFactors.cpp )
 target_link_libraries( TestSumByFactors 4_kyu_lib gtest gtest_main ${GTEST_LIBRARIES} pthread)
 add_test( TestSumByFactors TestSumByFactors )
+
+add_executable( TestDoubleLinear testDoubleLinear.cpp )
+target_link_libraries( TestDoubleLinear 4_kyu_lib gtest gtest_main ${GTEST_LIBRARIES} pthread)
+add_test( TestDoubleLinear TestDoubleLinear )
