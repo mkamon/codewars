@@ -5,4 +5,5 @@ add_library( 4_kyu_lib
 		sum_by_factors.cpp
 		connect_four.cpp
 		TwiceLinear.cpp
+		TCPStateMachine.cpp
 )

@@ -16,3 +16,8 @@ add_test( TestSumByFactors TestSumByFactors )
 add_executable( TestTwiceLinear testTwiceLinear.cpp )
 target_link_libraries( TestTwiceLinear 4_kyu_lib gtest gtest_main ${GTEST_LIBRARIES} pthread)
 add_test( TestTwiceLinear TestTwiceLinear )
+
+add_executable( TestTCPStateMachine testTCPStateMachine.cpp )
+target_link_libraries( TestTCPStateMachine 4_kyu_lib gtest gtest_main ${GTEST_LIBRARIES} pthread)
+add_test( TestTCPStateMachine TestTCPStateMachine )
+
